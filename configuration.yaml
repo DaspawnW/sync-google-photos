@@ -1,0 +1,12 @@
+synologyConfiguration:
+  url: https://localhost # URL to Synology Photos
+  username: qwe #username
+  password: asd #password
+  insecureHttpsConnection: true # allow untrusted certificates for connection to synology photos
+  uploadedTagID: 2 # Tag to identify already synced elements in Synology Photos
+
+googlePhotoConfiguration:
+  clientID: qwe # Google OAuth2 client ID further details you can find here: https://developers.google.com/photos/library/guides/get-started
+  clientSecret: qwe # Google OAuth2 Client Secret further details you can find here: https://developers.google.com/photos/library/guides/get-started
+  localRedirectURL: http://localhost:8080/login-redirect # redirect url with OAuth2 Token for further authentication
+

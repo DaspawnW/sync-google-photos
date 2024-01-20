@@ -1,0 +1,4 @@
+configuration-local.yaml
+oauth-login-state.json
+dist/
+.DS_Store
